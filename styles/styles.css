@@ -1,0 +1,14 @@
+.navbar-brand {
+    font-family: "Charm", cursive;;
+}
+
+/* hero */
+.hero {
+    height: 100vh;
+    background: url("../images/striped-jacket-with-red-striped-tie-and-handkerchi.jpg") no-repeat center center/cover;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content {
+    max-width: 700px;
+}

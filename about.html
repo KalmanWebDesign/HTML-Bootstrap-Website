@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html & bootstrap</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap" rel="stylesheet">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Spiffy Suits</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#suits">Suits</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./about.html" aria-current="page">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- about grid -->
+    <main class="container-lg" id="suits">
+        <h1 class="text-center my-4">About Us</h1>
+        <div class="row g-2 m-5">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="shadow-sm p-2">
+                    <img src="./images/fitted-athletic-sport-coat-suit.png" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="shadow-sm p-2">
+                    <h4>Spiffy Suits redefines elegance with bespoke designer suits tailored to perfection,
+                        combining timeless sophistication with modern style.</h4>
+                    <h4>Crafted from the finest fabrics, each Spiffy Suit is a masterpiece of craftsmanship,
+                        ensuring you exude confidence on every occasion.</h4>
+                    <h4>Elevate your wardrobe with Spiffy Suits, where luxury meets innovation for
+                        those who demand nothing but the best.</h4>
+                </div>
+            </div>
+        </div>
+        
+        <!-- contact and form -->
+        <h2 class="text-center my-4">Contact Us</h2>
+        <div class="row g-2 m-5">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="shadow-sm p-2">
+                    <div class="d-flex align-items-center gap-1 p-3">
+                        <h5>Phone:</h5>
+                        <h5>143-546-2344</h5>
+                    </div>
+                    <div class="d-flex align-items-center gap-1 p-3">
+                        <h5>Email:</h5>
+                        <h5>info@spiffysuits.com</h5>
+                    </div>
+                    <div class="d-flex align-items-center gap-1 p-3">
+                        <h5>location:</h5>
+                        <h5>New York City</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="shadow-sm p-2">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputname1" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp">
+                          </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="d-flex flex-column justify-content-between">
+                        <p><a href="#" class="text-white">Privacy Policy</a></p>
+                        <p><a href="#" class="text-white">Terms of Service</a></p>
+                        <p><a href="#" class="text-white">Contact</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <p>&copy; 2024 Spiffy Suits. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
